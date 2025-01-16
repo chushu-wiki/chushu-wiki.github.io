@@ -35,7 +35,7 @@
 
 > # 0 - 主标题
 > 
-> [上一页](chushu-wiki.github.io)
+> [[上一页]](chushu-wiki.github.io)
 > 
 > ## 0.1 - 二级标题
 > 
@@ -44,7 +44,7 @@
 > 正文  
 > （需要空一行）  
 > 作者名称  
-> [下一页](chushu-wiki.github.io)
+> [[下一页]](chushu-wiki.github.io)
 
 ## 1.3 - 数学公式
 
