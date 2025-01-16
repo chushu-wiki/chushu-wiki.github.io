@@ -75,7 +75,7 @@
 |  $\perp$  |  \perp  |  $\sin$  |  \sin  |
 |  $\because$  |  \because  |  $\therefore$  |  \therefore  |
 
-以上内容无法在github中正常显示
+以上内容无法在github中正常显示,请添加图片来插入符号
 
 ### 1.3.2 - 使用方法
 
