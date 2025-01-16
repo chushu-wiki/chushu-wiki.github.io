@@ -58,7 +58,8 @@
 标准的格式应该为"\$数学公式$"
 
 > 例：输入"\$y = kx+b$"
-> 得到 $y = kx+b$
+> 得到  
+> $y = kx+b$
 
 #### 1.3.1.2 - 可能用到的常用标注
 
@@ -73,6 +74,8 @@
 |  $\angle$  |  \angle  |  $10^\circ$  |  10^\circ  |
 |  $\perp$  |  \perp  |  $\sin$  |  \sin  |
 |  $\because$  |  \because  |  $\therefore$  |  \therefore  |
+
+以上内容无法在github中正常显示，如果需要查看，请[下载](https://github.com/be1c6776-bd45-4851-b2fd-f0707dd97d12)  
 
 ### 1.3.2 - 使用方法
 
