@@ -13,4 +13,5 @@
 ## 0.4 - 使用方法
 点击最上方“chushu-wiki”就可以跳转到目录
 
+zjx  
 [\[下一页\]](https://chushu-wiki.github.io/1/)
