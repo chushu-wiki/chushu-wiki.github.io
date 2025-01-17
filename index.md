@@ -12,4 +12,4 @@
 
 [4 - 几何](https://chushu-wiki.github.io/)  
 
-[5 - 函数](https://chushu-wiki.github.io/)  
+[5 - 函数](https://chushu-wiki.github.io/5/)  
