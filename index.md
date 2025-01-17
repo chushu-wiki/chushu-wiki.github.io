@@ -13,3 +13,5 @@
 [4 - 几何](https://chushu-wiki.github.io/)  
 
 [5 - 函数](https://chushu-wiki.github.io/5/)  
+
+[6 - 大题解法](https://chushu-wiki.github.io/6/)  
