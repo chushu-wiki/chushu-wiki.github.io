@@ -101,9 +101,6 @@ zjx
 
 ## 5.1 - 函数的定义
 
-[[上一页]](https://chushu-wiki.github.io/4/4.x)  
-[[返回首页]](https://chushu-wiki.github.io/)
-
 ### 5.1.1 - 变量
 
 ##### 定义 
@@ -141,7 +138,7 @@ zjx
 
 ##### 在平面直角坐标系上表示一个点
 >例： A (3, 4)  
->这里应该有一个A点的图片  
+>![A的图片](https://raw.githubusercontent.com/chushu-wiki/chushu-wiki.github.io/refs/heads/main/img/img_5_1_1.png) 
 
 这样就可以在坐标系内表示一个点了。  
 3，也就是括号里的第一项，代表着**横坐标**，也就是点到 $y$ 轴的距离  
@@ -161,9 +158,9 @@ zjx
 |-----|------|------|------|------|------|
 |  y  |  2  |  3  |  4  |  5  |  6  |
 >2.描点  
->此处应该有一个图片  
+>![描点图片](https://github.com/chushu-wiki/chushu-wiki.github.io/blob/main/img/img_5_1_2.png?raw=true)  
 >3.连线
->此处应该有一个图片
+>![连线图片](https://github.com/chushu-wiki/chushu-wiki.github.io/blob/main/img/img_5_1_3.png?raw=true)
 
 这样，我们就成功的完成了函数图像的绘制
 
