@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-      <title>使用geogebra（几何画板）绘制初中动点</title>
+      <title>使用geogebra绘制初中动点</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -69,7 +69,7 @@
 </ul>
 <p>你已经成功创建了一个滑动条！接下来，要让这个滑动条符合题目的要求：</p>
 <ul>
-<li>重新点击 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">t = 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span> 右侧的三个点</li>
+<li>重新点击 t = 0 右侧的三个点</li>
 <li>点击设置，我们会看见屏幕右侧有一个侧边栏弹出<br>
 <img src="https://raw.githubusercontent.com/chushu-wiki/chushu-wiki.github.io/refs/heads/main/img/2_1_9.png" alt="img9"></li>
 <li>将<strong>最小</strong>设置为 <code>0</code>；</li>
@@ -96,8 +96,9 @@
 <p>要创建一个动点，首先我们要了解<strong>描点命令</strong></p>
 <div class="admonition note">
 <p class="admonition-title">描点命令</p>
-<p>描点命令的标准格式为：</p>
-<pre data-role="codeBlock" data-info="描点(对象," class="language-描点(对象, 描点(对象,"><code></code></pre></div>
+<p>描点命令的标准格式为：<br>
+<code>描点(对象, 参数)</code></p>
+</div>
 <hr>
 <p>这里的<strong>对象</strong>是点按什么样的路径运动。<br>
 通过观察你的代数区，您可以发现，您创建的每一个图形在代数区都有对应的<strong>代数式</strong></p>
@@ -108,29 +109,24 @@
 所以我们要将这个能表示这个线段的<strong>字母</strong>替换<strong>对象</strong></li>
 <li>如果您的动点在一个折线上运动，那么我们需要在最下方再编写一段代数式：</li>
 </ul>
-<pre data-role="codeBlock" data-info="字母" class="language-字母 字母"><code>这里的字母，需要是上文没有出现过的，将折线经过的所有的点按顺序写入括号里面，用 "," 隔开。这样我们就可以用前面我们设置的**字母**替换**对象**
----
-接下来我们要传入**参数**，也就是让滑动条和动点结合起来
-在官方的解释中，这里的参数指的是点在**线段**中的位置，线段的总长度为 1 份，用小于 1 的分数来表示在线段中的相对位置。
-  
-!!! warning 注意
-    您要将您的图形中与动点相关的线**全部改为线段**，线段的长度应该是动点从开始到到达终点时候的距离，否则，您的动点可能会不工作。
-  
-参数部分应该输入：
- ```t/线段的总长度```
-  
-这样，您的动点 P 的代数式应该长这样：
-```P
-  
-这样，您的动点应该已经可以根据滑动条的拖动来移动了！
-  
-#### 完善
-继续完善与动点有关联的图形
-  
-zjx
-  
-  
-</code></pre>
+<p><code>字母 = 折线(点, 点, 点)</code></p>
+<p>这里的字母，需要是上文没有出现过的，将折线经过的所有的点按顺序写入括号里面，用 "," 隔开。这样我们就可以用前面我们设置的<strong>字母</strong>替换<strong>对象</strong></p>
+<hr>
+<p>接下来我们要传入<strong>参数</strong>，也就是让滑动条和动点结合起来<br>
+在官方的解释中，这里的参数指的是点在<strong>线段</strong>中的位置，线段的总长度为 1 份，用小于 1 的分数来表示在线段中的相对位置。</p>
+<div class="admonition warning">
+<p class="admonition-title">注意</p>
+<p>您要将您的图形中与动点相关的线<strong>全部改为线段</strong>，线段的长度应该是动点从开始到到达终点时候的距离，否则，您的动点可能会不工作。</p>
+</div>
+<p>参数部分应该输入：<br>
+<code>t/线段的总长度</code></p>
+<p>这样，您的动点 P 的代数式应该长这样：<br>
+<code>P = (表示对象的字母, t/线段的总长度)</code></p>
+<p>这样，您的动点应该已经可以根据滑动条的拖动来移动了！</p>
+<h4 id="完善">完善 </h4>
+<p>继续完善与动点有关联的图形</p>
+<p>zjx</p>
+
       </div>
       <div class="md-sidebar-toc">
 <div class="md-toc">
@@ -175,6 +171,10 @@ zjx
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a href="#创建动点" class="md-toc-link">
             <p>创建动点</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#完善" class="md-toc-link">
+            <p>完善</p>
 
           </a></div>
         </div>
